@@ -54,7 +54,7 @@ async def start_vc(event):
         await catub(
             functions.phone.CreateGroupCallRequest(
                 peer=vc_chat,
-                title="Cat VC",
+                title="War VC",
             )
         )
         await edit_delete(event, "Started Group Call")
@@ -163,7 +163,7 @@ async def info_vc(event):
         "header": "To end a stream on Voice Chat.",
         "description": "To end a stream on Voice Chat",
         "usage": "{tr}vctitle <text>",
-        "examples": "{tr}vctitle CatPro",
+        "examples": "{tr}vctitle WarPro",
     },
 )
 async def title_vc(event):
