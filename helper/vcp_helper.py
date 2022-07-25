@@ -65,7 +65,7 @@ class CatVC:
                 await self.client(
                     functions.phone.CreateGroupCallRequest(
                         peer=chat,
-                        title="Cat VC",
+                        title="War VC",
                     )
                 )
                 await self.join_vc(chat=chat, join_as=join_as)
